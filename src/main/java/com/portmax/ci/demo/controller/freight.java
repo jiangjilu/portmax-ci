@@ -12,6 +12,6 @@ public class freight {
     @RequestMapping(value = "/")
     public String list() {
         System.out.println("Hello World!");
-        return "Freight 20GP 40GP 40HC";
+        return "Freight: 20GP 40GP 40HC created on:20200814";
     }
 }
